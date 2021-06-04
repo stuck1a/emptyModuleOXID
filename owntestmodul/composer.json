@@ -1,12 +1,12 @@
 {
-  "name": "own/testmodul",
+  "name": "own/owntestmodul",
   "type": "oxideshop-module",
   "minimum-stability": "dev",
   "version": "1.0.0",
 
   "extra": {
     "oxideshop": {
-      "target-directory": "own/testmodul"
+      "target-directory": "own/owntestmodul"
     }
   },
 
@@ -16,7 +16,7 @@
 
   "autoload": {
     "psr-4": {
-      "own\\testmodul\\": "../../../source/modules/own/testmodul"
+      "own\\owntestmodul\\": "../../../source/modules/own/owntestmodul"
     }
   }
 }

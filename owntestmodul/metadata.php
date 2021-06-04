@@ -32,7 +32,7 @@ $aModule = [
         'value' => 'download',
         'constraints' => 'download|inline'
       ]
-    ]
+    ],
     
     'templates'    => [
     // tpl files
