@@ -2,39 +2,50 @@
 
 $sMetadataVersion = '2.1';
 
-$aModule = [
+$aModule = array (
     'id'           => 'owntestmodul',
-    'title'        => 'Testmodul',
     
-    'extend'       => [  
+    'title'        => array (
+      'de'            => 'Testmodul',
+      'en'            => 'Testmodule'
+    ),
+    
+    'description'  => array (
+      'de'            => 'Beschreibungstext',
+      'en'            => 'Descriptionstext'
+    ),
+    
+    'extend'       => array (  
       // Model
       \OxidEsales\Eshop\Application\Model\Article::class => own\owntestmodul\Application\Model\owntestmodul__oxarticle::class
-    ],
+    ),
     
-    'controllers'  => [   
-    ],
+    'controllers'  => array (
+      // controller definitions
+    ),
     
-    'blocks'       => [
-    ],
+    'blocks'       => array (
+      // block definitions
+    ),
     
-    'settings'     => [
-      [
-        'group' => 'owntestmodul_general',
-        'name' => 'sTestsetting1',
-        'type' => 'str',
-        'value' => 'Testvalue1'
-      ],
+    'settings'     => array (
+      array (
+        'group'       => 'owntestmodul_general',
+        'name'        => 'sTestsetting1',
+        'type'        => 'str',
+        'value'       => 'Testvalue1'
+      ),
       
-      [
-        'group' => 'owntestmodul_general',
-        'name' => 'sTestsetting2',
-        'type' => 'select',
-        'value' => 'download',
+      array (
+        'group'       => 'owntestmodul_general',
+        'name'        => 'sTestsetting2',
+        'type'        => 'select',
+        'value'       => 'download',
         'constraints' => 'download|inline'
-      ]
-    ],
+      )
+    ),
     
-    'templates'    => [
-    // tpl files
-    ]
-];
+    'templates'    => array (
+      // tpl files
+    )
+);
