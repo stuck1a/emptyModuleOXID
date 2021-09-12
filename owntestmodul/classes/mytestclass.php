@@ -1,8 +1,8 @@
 <?php
-namespace own\owntestmodul\classes;
+namespace s1a\s1atestmodul\classes;
 
-class ownmytestclass {   }
+class s1a_Testklasse {   }
 
-echo "Test";
+echo "Testklasse Controller wurde durchlaufen!";  // debug line
 
 ?>
