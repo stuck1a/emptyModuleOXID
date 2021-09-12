@@ -6,8 +6,8 @@ $aModule = [
     'id'           => 'owntestmodul',
     'title'        => 'Testmodul',
     'version'      => '1.0.0',
-    'author'       => 'Marc Becker',
-    'email'        => 'mbecker-dev@protonmail.com',
+    'author'       => 'stuck1a',
+    'email'        => 'info@stuck1a.de',
     
     'extend'       => [  
       // Model
