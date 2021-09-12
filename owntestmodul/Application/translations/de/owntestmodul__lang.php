@@ -25,7 +25,7 @@
 $aLang = array(
     'charset'                   => 'UTF-8',
     
-    'OWNTESTMODUL'              => 'Eigenes Testmodul',
-    'OWNTESTMODUL_TEXTFIELD1'   => 'Hallo Welt',
-    'OWNTESTMODUL_TEXTFIELD2'   => 'Tschüss Welt',
+    'S1ATESTMODUL'              => 'stuck1a\'s Testmodul',
+    'S1ATESTMODUL_TEXTFIELD1'   => 'Hallo Welt',
+    'S1ATESTMODUL_TEXTFIELD2'   => 'Tschüss Welt',
 );
