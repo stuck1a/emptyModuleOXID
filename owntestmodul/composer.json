@@ -1,5 +1,5 @@
 {
-  "name": "own/owntestmodul",
+  "name": "s1a/s1atestmodul",
   "type": "oxideshop-module",
   "minimum-stability": "dev",
   "version": "1.0.0",
@@ -16,7 +16,7 @@
 
   "autoload": {
     "psr-4": {
-      "own\\owntestmodul\\": "../../../source/modules/own/owntestmodul"
+      "s1a\\s1atestmodul\\": "../../../source/modules/s1a/s1atstmodul"
     }
   }
 }
