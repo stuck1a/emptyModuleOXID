@@ -3,40 +3,35 @@
 $sMetadataVersion = '2.1';
 
 $aModule = [
-    'id'           => 'owntestmodul',
-    'title'        => 'Testmodul',
+    'id'           => 's1atestmodul',
+    'title'        => 'Stuck1a\s Testmodul',
     'version'      => '1.0.0',
     'author'       => 'stuck1a',
     'email'        => 'info@stuck1a.de',
     
     'extend'       => [  
       // Model
-      \OxidEsales\Eshop\Application\Model\Article::class => own\owntestmodul\Application\Model\owntestmodul__oxarticle::class,
-      \OxidEsales\Eshop\Application\Model\User\UserUpdatableFields::class => \OxidEsales\ExtendUser\UserUpdatableFields::class
+      \OxidEsales\Eshop\Application\Model\Article::class => s1a\s1atestmodul\Application\models\s1atestmodul__oxarticle::class
     ],
     
-    'controllers'  => [   
+    'controllers'  => [
+      // controller files
     ],
-
-    'blocks' => array(
-        // FrontEnd-Erweiterung: Feld "Zus. Info" bei User-Adressen
-        array(
-            'template' => 'form/fieldset/user_billing.tpl',
-            'block'=>'form_user_billing_country',
-            'file'=>'Application/views/user.tpl'
-        ),
-    ),
+    
+    'blocks' => [
+      // block files
+    ]
     
     'settings'     => [
       [
-        'group' => 'owntestmodul_general',
+        'group' => 's1atestmodul_general',
         'name' => 'sSetting1',
         'type' => 'str',
         'value' => 'Bitte eingeben...'
       ],
       
       [
-        'group' => 'owntestmodul_general',
+        'group' => 's1atestmodul_general',
         'name' => 'sSetting2',
         'type' => 'select',
         'value' => 'sChoice2',
@@ -48,5 +43,3 @@ $aModule = [
     // tpl files
     ]
 ];
-
-own\Application\Model\User\UserUpdatableFields;
